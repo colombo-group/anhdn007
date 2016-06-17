@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class User</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Config.html">Config</a></li>
+				<li><a href="class-Cookie.html">Cookie</a></li>
+				<li><a href="class-Database.html">Database</a></li>
+				<li><a href="class-Hash.html">Hash</a></li>
+				<li><a href="class-Input.html">Input</a></li>
+				<li><a href="class-Redirect.html">Redirect</a></li>
+				<li><a href="class-Session.html">Session</a></li>
+				<li><a href="class-Token.html">Token</a></li>
+				<li class="active"><a href="class-User.html">User</a></li>
+				<li><a href="class-Validate.html">Validate</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class User</h1>
+
+
+	<div class="description">
+	<p>Lớp thực hiện các thao tác làm việc với đối tượng</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+			<b>Located at</b> <a href="source-class-User.html#2-160" title="Go to source code">User.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-User.html#12-33" title="Go to source code">__construct</a>( <span> <var>$user</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Hàm khởi tạo cho user, tạo cookie, tạo session và tạo kết nối đến DB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm khởi tạo cho user, tạo cookie, tạo session và tạo kết nối đến DB</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-User.html#35-49" title="Go to source code">update</a>( <span>array <var>$fields</var> = <span class="php-keyword1">array</span>()</span>, <span>integer <var>$id</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Hàm thực hiện cập nhật các trường dữ liệu người dùng sau khi có login hoặc logout</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm thực hiện cập nhật các trường dữ liệu người dùng sau khi có login hoặc logout</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fields</var></dt>
+					<dd>Lưu các trường dữ liệu muốn thực hiện cập nhật</dd>
+					<dt><var>$id</var></dt>
+					<dd>Lưu id của người dùng cần cập nhật dữ liệu</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-User.html#51-59" title="Go to source code">create</a>( <span>array <var>$fields</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Hàm thực hiện tạo phiên làm việc mới cho user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm thực hiện tạo phiên làm việc mới cho user</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fields</var></dt>
+					<dd>danh sách cá trường dữ liệu cần để tạo ra user mới</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="find" id="_find">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_find">#</a>
+		<code><a href="source-class-User.html#61-77" title="Go to source code">find</a>( <span>string <var>$user</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>THực hiện tìm kiếm user theo tên user nhập vào</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>THực hiện tìm kiếm user theo tên user nhập vào</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$user</var></dt>
+					<dd>Nhập vào tên user cần tìm</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>True: nếu tìm thấy bản ghi đầu tiên có chứa tên user False: nếu không có bản ghi này trong CSDL
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="login" id="_login">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_login">#</a>
+		<code><a href="source-class-User.html#79-115" title="Go to source code">login</a>( <span>string <var>$username</var> = <span class="php-keyword1">null</span></span>, <span>password <var>$password</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$remember</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Hàm thực hiện thao tác login cho 1 user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm thực hiện thao tác login cho 1 user</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd>Tên user cần đăng nhập</dd>
+					<dt><var>$password</var></dt>
+					<dd>password của user cần đăng nhập</dd>
+					<dt><var>$remember</var></dt>
+					<dd>ghi lại yêu cầu của người dùng có muốn lưu lại mật khẩu trên trang này hay không</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>True: nếu user đăng nhập thành công False: Nếu user đăng nhập xảy ra lỗi
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasPermission" id="_hasPermission">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasPermission">#</a>
+		<code><a href="source-class-User.html#116-131" title="Go to source code">hasPermission</a>( <span>integer <var>$key</var></span> )</code>
+
+		<div class="description short">
+			<p>Hàm kiểm tra mã quyền của người dùng là admin hay khách hay thành viên,...</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm kiểm tra mã quyền của người dùng là admin hay khách hay thành viên,...</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd>Để lưu quyền của user</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="exists" id="_exists">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exists">#</a>
+		<code><a href="source-class-User.html#132-137" title="Go to source code">exists</a>( )</code>
+
+		<div class="description short">
+			<p>Thực hiện kiểm tra 1 người dùng có tồn tại hay chưa</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Thực hiện kiểm tra 1 người dùng có tồn tại hay chưa</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="logout" id="_logout">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logout">#</a>
+		<code><a href="source-class-User.html#138-145" title="Go to source code">logout</a>( )</code>
+
+		<div class="description short">
+			<p>Hàm thực hiện đăng xuất người dùng, hủy cả session và cookie của tiến trình đăng nhập</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm thực hiện đăng xuất người dùng, hủy cả session và cookie của tiến trình đăng nhập</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="_data">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_data">#</a>
+		<code><a href="source-class-User.html#147-152" title="Go to source code">data</a>( )</code>
+
+		<div class="description short">
+			<p>Hàm thực hiện lấy dữ liệu trong DB của user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm thực hiện lấy dữ liệu trong DB của user</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isLoggedIn" id="_isLoggedIn">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isLoggedIn">#</a>
+		<code><a href="source-class-User.html#154-159" title="Go to source code">isLoggedIn</a>( )</code>
+
+		<div class="description short">
+			<p>Hàm kiểm tra trạng thái đăng nhập của user</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hàm kiểm tra trạng thái đăng nhập của user</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
